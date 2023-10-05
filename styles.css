@@ -1,0 +1,170 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  main {
+    width: 80vw;
+    margin: 40px auto;
+    max-width: 1000px;
+    min-width: 300px;
+    font-size: 16px;
+  }
+  
+  .kentaro {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: inherit;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  #berserk-legacy, #tribute-info {
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 30px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 30px;
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    min-width: 300px;
+    max-width: 1000px;
+  }
+  
+  .title {
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 20px;
+  }
+  
+  #img-caption {
+    margin: 15px;
+  }
+  
+  figure {
+    margin: 35px;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira sans", sans-serif;
+  }
+  
+  .timeline-component {
+    margin: 0 20px 20px 20px;
+  }
+  
+  .timeline-component-bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0,2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .timeline-component-bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline-date-right {
+    text-align: right;
+  }
+  
+  
+  .timeline-middle {
+    position: relative;
+    background: #c9a0dc;
+  }
+  
+  .timeline-point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #c9a0dc;
+    border-radius: 50%;
+  }
+  
+  .timeline-point-bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline-title {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+  
+  .timeline-paragraph{
+    line-height: 1.5;
+  }
+  
+  p {
+    font-family: "Fira sans", sans-serif;
+  }
+  
+  article p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 25px;
+  }
+  
+  .guts {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 25;
+  }
+  
+  #img-caption2 {
+    text-align: center;
+    max-width: 750px;
+    margin: 15px auto 25px auto;
+    padding: 0 25;
+  }
